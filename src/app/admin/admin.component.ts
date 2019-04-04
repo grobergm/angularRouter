@@ -9,7 +9,7 @@ import { Album } from '../album.model';
   providers: [AlbumService]
 })
 export class AdminComponent implements OnInit {
-
+  
   constructor(private albumService: AlbumService) { }
 
   ngOnInit() {
